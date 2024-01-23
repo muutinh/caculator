@@ -1,0 +1,66 @@
+#container {
+    height: auto;
+    width: auto;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: grey;
+    border: 5px solid black;
+}
+.screen {
+    height: auto;
+    width: auto;
+    margin: 4% 5% 3% 5%;
+    border: 2px solid black;
+    background-color: white;
+}
+.screen .scr {
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+}
+.other{
+    margin: 2% 5% 3% 5%;
+    height: auto;
+}
+.board {
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.board .row {
+    height: 10%;
+    width: 100%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.row .box {
+    width: 20%;
+    height: 100%;
+    /* canh giữa box cho nội dung - không cần nhưng để cho nhớ */
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+.row .box1 {
+    width: 73%;
+    height: 100%;
+}
+.btn {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15%;
+    font-size: 30px;
+}
+
+p {
+    text-align: right;
+    padding-right: 1%;
+    padding-top: 0%;
+    vertical-align: bottom;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}

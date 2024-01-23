@@ -1,0 +1,91 @@
+<html>
+<head>
+    <link rel="stylesheet" href="maytinh.css">
+    <script type="text/javascript" src="maytinh.js" language="javascript"></script>
+</head>
+<body>
+    <h1 style="text-align: center; color: red;">Đây là chiếc máy tính cá nhân của Ming Tus nhé</h1>
+    <h2 style="text-align: center; color: red; line-height: 1%;">Máy tính điện tử tuỳ chọn nâng cao</h2>
+    <div id="container">
+        <div class="screen">
+            <div class="scr">
+                <script>
+                    document.write("<b>Hôm này là: </b>" + ngayHientai());
+                </script>
+                <p id="bam"><input type="text" class="pheptinh" id="bam1" style="border: white; text-align: right; font-family: 'Courier New', Courier, monospace; font-size: 17px; font-weight: bold; width: 200px;" ></p>
+            </div>
+            <div class="scr">
+                <br>
+                <p id="manhinh"><input type="text" class="ketqua" id="manhinh1" style="border: white; text-align: right; font-family: 'Courier New', Courier, monospace; font-size: 17px; font-weight: bold; width: 200px;"></p>
+            </div>
+        </div>
+        <div class="board">
+            <div class="row">
+                <div class="box">
+                    <button name="" value="7" type="button" class="btn" onclick="hienthi('7')">7</button>
+                </div>
+                <div class="box">
+                    <button name="" value="8" type="button" class="btn" onclick="hienthi('8')">8</button>
+                </div>
+                <div class="box">
+                    <button name="" value="9" type="button" class="btn" onclick="hienthi('9')">9</button>
+                </div>
+                <div class="box">
+                    <button name="" value="+" type="button" class="btn" onclick="hienthi('+')">+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <button name="" value="4" type="button" class="btn" onclick="hienthi('4')">4</button>
+                </div>
+                <div class="box">
+                    <button name="" value="5" type="button" class="btn" onclick="hienthi('5')">5</button>
+                </div>
+                <div class="box">
+                    <button name="" value="6" type="button" class="btn" onclick="hienthi('6')">6</button>
+                </div>
+                <div class="box">
+                    <button name="" value="-" type="button" class="btn" onclick="hienthi('-')">-</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <button name="" value="1" type="button" class="btn" onclick="hienthi('1')">1</button>
+                </div>
+                <div class="box">
+                    <button name="" value="2" type="button" class="btn" onclick="hienthi('2')">2</button>
+                </div>
+                <div class="box">
+                    <button name="" value="3" type="button" class="btn" onclick="hienthi('3')">3</button>
+                </div>
+                <div class="box">
+                    <button name="" value="*" type="button" class="btn" onclick="hienthi('*')">*</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <button name="" value="Back" type="button" class="btn" onclick="trolai()">Back</button>
+                </div>
+                <div class="box">
+                    <button name="" value="0" type="button" class="btn" onclick="hienthi('0')">0</button>
+                </div>
+                <div class="box">
+                    <button name="" value="button" type="reset" class="btn" onclick="reSet()">Reset</button>
+                </div>
+                <div class="box">
+                    <button name="" value="÷" type="button" class="btn" onclick="hienthi('/')">÷</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="box">
+                    <button name="" value="." type="button" class="btn" onclick="hienthi('.')">.</button>
+                </div>
+                <div class="box1">
+                    <button name="" value="=" type="button" class="btn" style="border-radius: 0%;" onclick="tinhs()">=</button>
+                </div>
+            </div>
+        </div>
+        <div class="other"></div>
+    </div>
+</body>
+</html>
